@@ -13,7 +13,7 @@ variable "random_cluster_suffix" {
 variable "do_token" {
   description = "Digital Ocean Personal access token"
   type        = string
-  default     = "dop_v1_0b1d3e57cc3f0c71ba853b2a0271121a366a179432332959f5a65a261abe2a1c"
+  default     = "dop_v1_fd1c70f56eb3e0b9fa89933767628076cbf34788741818c9e84d13bc20590d30"
 }
 
 variable "do_region" {
