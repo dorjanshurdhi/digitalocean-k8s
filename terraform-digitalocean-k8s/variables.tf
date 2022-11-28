@@ -31,7 +31,7 @@ variable "do_k8s_name" {
 variable "do_k8s_pool_name" {
   description = "Digital Ocean Kubernetes default node pool name (e.g. `k8s-do-nodepool`)"
   type        = string
-  default     = "workerpool"
+  default     = "k8s-infrapool"
 }
 
 variable "do_k8s_nodes" {
@@ -49,7 +49,7 @@ variable "do_k8s_node_type" {
 variable "do_k8s_nodepool_name" {
   description = "Digital Ocean Kubernetes additional node pool name (e.g. `k8s-do-nodepool`)"
   type        = string
-  default     = "k8s-nodepool"
+  default     = "k8s-workerpool"
 }
 
 variable "do_k8s_nodepool_type" {

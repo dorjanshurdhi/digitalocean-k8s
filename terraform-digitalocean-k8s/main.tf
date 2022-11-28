@@ -16,7 +16,7 @@ resource "digitalocean_kubernetes_cluster" "k8s" {
   count   = 1
   name    = var.do_k8s_name
   region  = var.do_region
-  version = data.external.get_latest_do_k8s_version[count.index].result["version"] 
+  version = data.external.get_latest_do_k8s_version[count.index].result["version"]
 
   node_pool {
     name       = var.do_k8s_pool_name
