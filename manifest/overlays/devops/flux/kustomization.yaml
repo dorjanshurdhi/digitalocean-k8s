@@ -3,3 +3,4 @@ namespace: flux-system
 
 resources:
 - flux.yml
+- rbac.yml
